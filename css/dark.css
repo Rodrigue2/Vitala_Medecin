@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Vitalia - Dark Theme Overrides
+   Activated by adding .dark-theme to body
+   ========================================================================== */
+
+/* Main App Background */
+body.dark-theme,
+.dark-theme .app-container {
+    background: #0F172A !important; /* Deep slate */
+    background-image: none !important;
+    color: #F8FAFC !important;
+}
+
+/* Base Text Heading Overrides */
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5,
+.dark-theme .text-slate-900,
+.dark-theme .text-slate-800,
+.dark-theme .text-slate-700 {
+    color: #F8FAFC !important;
+}
+
+.dark-theme .text-slate-600,
+.dark-theme .text-slate-500,
+.dark-theme .text-slate-400 {
+    color: #94A3B8 !important;
+}
+
+/* Background Utility Classes */
+.dark-theme .bg-white,
+.dark-theme .bg-slate-50,
+.dark-theme .bg-slate-100 {
+    background-color: #1E293B !important;
+    border-color: #334155 !important;
+}
+
+/* Hover Utilities */
+.dark-theme .hover\:bg-slate-50:hover,
+.dark-theme .hover\:bg-slate-100:hover {
+    background-color: #334155 !important;
+}
+
+/* Border Utility Classes */
+.dark-theme .border-slate-100,
+.dark-theme .border-slate-200,
+.dark-theme .border-slate-300 {
+    border-color: #334155 !important;
+}
+
+/* Sidebar Specifics */
+.dark-theme .sidebar {
+    background: #0B0F19 !important;
+    border-right: 1px solid #1E293B !important;
+}
+
+/* Card Specifics */
+.dark-theme .antigravity-card,
+.dark-theme .ag-card-header,
+.dark-theme .card,
+.dark-theme [id$="-sidebar"],
+.dark-theme [id$="-panel"] {
+    background: #1E293B !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8) !important;
+    border-color: #334155 !important;
+}
+
+.dark-theme .ag-card-header {
+    border-bottom: 1px solid #334155 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.dark-theme .vitalia-list-item {
+    border-bottom-color: #334155 !important;
+}
+
+/* Inputs, Selects & Textareas */
+.dark-theme input:not([type="checkbox"]),
+.dark-theme select,
+.dark-theme textarea {
+    background-color: #0F172A !important;
+    color: #F8FAFC !important;
+    border-color: #334155 !important;
+}
+
+.dark-theme input::placeholder {
+    color: #64748B !important;
+}
+
+.dark-theme select option {
+    background-color: #1E293B !important;
+    color: #F8FAFC !important;
+}
+
+/* Modals & Dialogs */
+.dark-theme #teleconsultation-overlay,
+.dark-theme #ordonnance-overlay {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.dark-theme #teleconsultation-modal,
+.dark-theme #ordonnance-modal,
+.dark-theme .modal-content-area,
+.dark-theme [style*="background:#ffffff"] { /* Catch inline white backgrounds */
+    background: #1E293B !important;
+    color: #F8FAFC !important;
+}
+
+/* Inline styling overrides */
+.dark-theme [style*="color:#0F172A"] {
+    color: #F8FAFC !important;
+}
+.dark-theme [style*="color:#64748B"] {
+    color: #94A3B8 !important;
+}
+
+/* Top Navigation Bar */
+.dark-theme .focus-toggle-antigravity {
+    background: rgba(30, 41, 59, 0.8) !important;
+    border-color: #334155 !important;
+}
+
+.dark-theme .focus-toggle-label {
+    color: #E2E8F0 !important;
+}
+
+/* Light buttons turned dark */
+.dark-theme button[style*="background:#fff"] {
+    background: #0F172A !important;
+    border-color: #334155 !important;
+    color: #94A3B8 !important;
+}
+
+.dark-theme button[style*="background:#fff"]:hover {
+    background: #334155 !important;
+    color: #F8FAFC !important;
+}
+
+/* Switch styling for dark theme */
+.dark-theme .switch .slider {
+    background-color: #3B82F6 !important;
+}
+
+/* Agenda / Calendars Overrides */
+.dark-theme .agenda-item {
+    background-color: #0F172A !important;
+    border-color: #334155 !important;
+}
+.dark-theme .agenda-item.ring-indigo-500 {
+    background-color: #1E293B !important;
+}
